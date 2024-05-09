@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Inclusión, Migración, Discapacidad</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+      
+<style>
+
+</style>
+    </head>
+  <body>
+<header class="container" >
+    <div class="row">
+        <div class="col-12 text-center">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-circle-square w-25 my-4" viewBox="0 0 16 16" >
+                <path d="M0 6a6 6 0 1 1 12 0A6 6 0 0 1 0 6"/>
+                <path d="M12.93 5h1.57a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5v-1.57a7 7 0 0 1-1-.22v1.79A1.5 1.5 0 0 0 5.5 16h9a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 4h-1.79q.145.486.22 1"/>
+            </svg>
+            <h1 class="display-3"><strong><strong>Inclusión, Migración, Discapacidad:</strong></strong> <br> La gran variedad de áreas que abarca</h1>
+            <h2 class="fs-5 mt-4">MARÍA JAVIERA MOLIN AGUAD</h2>
+        </div>
+    </div>  
+</header>
+<main class="container">
+    <div class="row py-4">
+        <div class="col-10 mx-auto">
+        <p class="lead">Al iniciar el proceso de desarrollo del proyecto de título en diseño, se requiere la inscripción en un área específica que defina el contexto en el cual se llevará a cabo el trabajo. Sin embargo, entre las opciones disponibles se encuentra una denominada "Inclusión, Migración, Discapacidad", la cual abarca una amplia gama de temáticas. Esta categoría, aunque aborda importantes aspectos sociales, puede resultar demasiado amplia y poco específica, lo que dificulta a los estudiantes tener una comprensión clara de qué tipo de proyectos se esperan encontrar dentro de esta área.</p>
+        </div>
+        <h2 class="fs-3 mt-4"> Algunos casos </h2>
+    <div class="col-3 my-3">   
+        <div class="col-12">
+            <figure class="py-3 text-center">
+                <img src="img/f9.png" class="w-100">
+                <figcaption class="my-2 small">María Sofía Aspillaga Valdés - 2018</figcaption>
+            </figure>
+        </div>
+        
+        <div class="col-10 mx-auto">
+            <p>Servicio de información y apoyo para mujeres haitianas en período postnatal en Chile, que promueve las prácticas de cuidado del recién nacido recomendadas por el Ministerio de Salud y permite la generación de redes de apoyo entre pares.</p>
+        </div>
+    </div> 
+        
+    <div class="col-3 my-3">   
+        <div class="col-12">
+            <figure class="py-3 text-center">
+                <img src="img/f2.png" class="w-100">
+                <figcaption class="my-2 small">Betina Hip Cortés - 2022</figcaption>
+            </figure>
+        </div>
+        
+        <div class="col-10  mx-auto">
+        <p>Sistema producto-servicio de creación de productos ortopédicos personalizados para perros con pérdida de movilidad, desde una mirada multidisciplinaria y con un proceso centrado en el usuario.</p>
+        </div>
+    </div> 
+        
+    <div class="col-3 my-3">   
+        <div class="col-12">
+            <figure class="py-3 text-center">
+                <img src="img/f10.png" class="w-100">
+                <figcaption class="my-2 small">Camila Margot Simonetti Mora - 2020</figcaption>
+            </figure>
+        </div>
+        
+        <div class="col-10  mx-auto">
+            <p>Servicio de acompañamiento interactivo para niños con Distrofia Muscular de Duchenne entre 4-7 años y sus cuidadores que les brinde herramientas, apoyo y orientación durante la etapa «ambulatoria temprana» del proceso post-diagnóstico.</p>
+        </div>
+    </div> 
+        
+        <div class="col-3 my-3">   
+        <div class="col-12">
+            <figure class="py-3 text-center">
+                <img src="img/f8.png" class="w-100">
+                <figcaption class="my-2 small">Victoria Schuwirth Montero - 2017</figcaption>
+            </figure>
+        </div>
+        
+        <div class="col-10 mx-auto">
+            <p>Desarrollo de línea de productos, fabricados mediante trabajo colaborativo de personas en situación de calle, a través de un taller-fundación, como forma de vinculación social y laboral.</p>
+            </div>
+    </div> 
+
+
+<div id="chartContainer2" class="mx-auto mt-2" style="height: 300px; width: 80%;"></div>
+<div id="chartContainer" class="mx-auto mt-5" style="height: 300px; width: 80%;"></div>
+
+
+    </div>  
+</main>
+<footer class="bg-light">
+  <div class="container py-5">
+      <div class="row">
+          <div class="col-10 mx-auto text-center">
+            <p> El pie de página </p>
+          </div>
+        </div>
+    </div>    
+      
+      </footer>
+    </body>
+    
+    
+    <script src="https://cdn.canvasjs.com/canvasjs.min.js"></script>
+  
+<script>
+window.onload = function () {
+var dataPoints = [
+    { label: "2016", y: [7.0, 4.0], x: 1, average: 5.8 },
+    { label: "2017", y: [6.7, 5.9], x: 2, average: 6.3 },
+    { label: "2018", y: [6.8, 5.8], x: 3, average: 6.3 },
+    { label: "2019", y: [6.6, 4.7], x: 4, average: 6.2 },
+    { label: "2020", y: [6.4, 4.3], x: 5, average: 5.8 },
+    { label: "2021", y: [6.5, 5.0], x: 6, average: 6.0 },
+    { label: "2022", y: [6.6, 5.7], x: 7, average: 6.2 }
+];
+
+var colors = ["#6E78AD", "#51CDA0", "#DF7970", "#4C9DA0", "#AE7D99", "#C9D45C", "#5692AD"];
+
+dataPoints.forEach(function(point, index) {
+    point.color = colors[index];
+});
+
+var averageDataPoints = dataPoints.map(function(point) {
+    return { x: point.x, y: point.average };
+});
+
+var chart = new CanvasJS.Chart("chartContainer", {
+    theme: "light2",
+    animationEnabled: true,
+    title: {
+        text: "Nota máxima, mínima y promedio por años"
+    },
+    axisY: {
+        title: "Notas",
+        prefix: ""
+    },
+    axisX: {
+        valueFormatString: "####"
+    },
+    data: [{
+        type: "rangeColumn",
+        showInLegend: true,
+        legendMarkerColor: "pink",
+        legendText: "Promedio anual",
+        yValueFormatString: "#,##0.0",
+        toolTipContent: "<strong>{label}</strong> <br>Nota más alta: {y[0]}<br>Nota más baja: {y[1]}<br>Promedio: {average}",
+        dataPoints: dataPoints
+    },
+    {
+        type: "line",
+        markerType: "none",
+        color: "pink",
+        dataPoints: averageDataPoints,
+        toolTipContent: null 
+    }]
+});
+
+chart.render();
+
+
+var chart2 = new CanvasJS.Chart("chartContainer2", {
+    animationEnabled: true,
+    theme: "light2",
+    title: {
+        text: "Cantidad de proyectos en esta área"
+    },
+    axisY: {
+        title: "Cantidad de proyectos"
+    },
+    data: [{
+        type: "column",
+        dataPoints: [{
+                y: 9,
+                label: "2016",
+                toolTipContent: "<b>Proyectos en 2016:</b> <br><ul><li>FABdown</li><li>Trama</li><li>OUTLOUD</li><li>AUPA</li><li>N.A.E.E.C</li><li>En pais ajeno</li><li>S.R bipedestadora</li><li>EN.SEÑA</li><li>Lumi</li></ul>"
+            },
+            {
+                y: 9,
+                label: "2017",
+                toolTipContent: "<b>Proyectos en 2017:</b> <br><ul><li>Diario de Vidas</li><li>Mas Cocina</li><li>Ap-akeyi</li><li>PINTATUN</li><li>Mas alla del cuerpo</li><li>BARCO VIKIGO</li><li>Fundacion Expreso</li><li>HOGAR</li><li>+FORUM</li></ul>"
+            },
+            {
+                y: 6,
+                label: "2018",
+                toolTipContent: "<b>Proyectos en 2018:</b> <br><ul><li>SUAVE</li><li>Gero el granjero</li><li>BITO</li><li>FEY ZANMI</li><li>Lakou</li><li>Cuerpo Querido</li></ul>"
+            },
+            {
+                y: 7,
+                label: "2019",
+                toolTipContent: "<b>Proyectos en 2019:</b> <br><ul><li>Inmigra Seguro</li><li>I.L.P.L.D.D.S.P.D.A</li><li>Fanm</li><li>NUESTRA HISTORIA</li><li>Escuela sin Fronteras</li><li>Desde la Calle</li><li>Exploración Kepler</li></ul>"
+            },
+            {
+                y: 5,
+                label: "2020",
+                toolTipContent: "<b>Proyectos en 2020:</b> <br><ul><li>Enlazados</li><li>4U</li><li>SALVI</li><li>HEFANO</li><li>S.D.C.E.S.P.A.M</li></ul>"
+            },
+            {
+                y: 8,
+                label: "2021",
+                toolTipContent: "<b>Proyectos en 2021:</b> <br><ul><li>RELATOS DE NUESTROS MAYORES</li><li>S.D.A.D.P.T.D.A.M.</li><li>Taller el frente popular</li><li>EXPERTOS</li><li>SABIOS</li><li>Cuando llegue...</li><li>CROMOSOMOS</li><li>Anue</li></ul>"
+            },
+            {
+                y: 6,
+                label: "2022",
+                toolTipContent: "<b>Proyectos en 2022:</b> <br><ul><li>Hoy te cuento</li><li>Conocer(te)</li><li>Macanuda</li><li>SINTABÚ</li><li>Mutua</li><li>Vamos!</li></ul>"
+            }
+        ]
+    }],
+    subtitles: [{
+        text: "(Arrastra el cursor sobre las barras para ver los títulos de los proyectos)",
+        fontColor: "grey",
+        fontSize: 12
+    }]
+});
+chart2.render();
+
+
+
+    var elements = document.querySelectorAll('.canvasjs-chart-credit');
+    for (var i = 0; i < elements.length; i++) {
+        elements[i].style.display = 'none';
+    }
+}
+</script>
+
+    
+</html>
